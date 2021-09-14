@@ -1,0 +1,124 @@
+@font-face {
+    font-family: senadorfont;
+    src: url(CreatoDisplay-Bold.otf);
+}
+
+@font-face {
+    font-family: senadortext;
+    src: url(CreatoDisplay-Regular.otf);
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+    
+	50% {
+		transform: translatey(-40px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(47, 68, 55), rgb(23, 23, 26));
+}
+
+/*css for nav section*/
+ul.nav{
+    padding-left: 10%;   
+}
+
+div.nav-container{
+    margin-right: 10%;
+}
+
+a.nav-link {
+    font-family: senadorfont;
+    color: white;
+}
+
+.nav {
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 20px 20px 20px 20px;
+}
+
+.nav-item :hover {
+    background-color: rgb(65, 236, 107);
+    color: black;
+}
+
+.nav-container {
+    position: absolute;
+    right:0;
+    justify-self: end;
+    display: flex;
+    padding: 20px 20px 20px 80px;
+}
+
+/*css for header something*/
+
+div.container{
+    padding-left: 30px;
+}
+
+p#title {
+    font-size: 450%;
+    font-family: senadorfont;
+    color: rgb(65, 236, 107);
+    margin-bottom: 0%;
+}
+
+div.description {
+    width: 100%;
+    font-size: 80%;
+    text-align: justify;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 30%;
+  }
+  
+  .fa:hover {
+      color: white;
+}
+  
+  .fa-facebook {
+    color: rgb(65, 236, 107);
+}
+  
+  .fa-twitter {
+    color: rgb(65, 236, 107);
+}
+  
+  .fa-google {
+    color: rgb(65, 236, 107);
+}
+  
+  img#logo {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* css for bottom section*/
+div#hanging-icons{
+    color: white;
+    margin-left: 8%;
+}
+
+div.container h2 {
+    color: rgb(65, 236, 107);
+}
+
+div#bottom-card{
+    text-align: justify;
+}
