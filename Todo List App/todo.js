@@ -25,7 +25,7 @@ function clickRemove() {
 var close = document.getElementsByClassName("delete");
 for (var i = 0; i < close.length; i++) {
   close[i].onclick = function() {
-    var listRremove = this.parentElement;
+    var listRemove = this.parentElement;
     listRemove.style.display = "none";
   }
 }
